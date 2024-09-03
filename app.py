@@ -2,7 +2,7 @@ import google.generativeai as genai
 import os
 import streamlit as st
 
-Google_api = 'AIzaSyAIWQXFkWw18_4asY32dcVla4q2diy-sDg'
+Google_api = '---'
 genai.configure(api_key = Google_api)
 model = genai.GenerativeModel('gemini-pro')
 chat = model.start_chat(history=[])
